@@ -170,4 +170,8 @@ dist
 .pnp.*
 
 # designs
+
 /public/design
+README-TEMPLATE.MD
+README.md
+style-guide.md

@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { UilArrowCircleRight } from '@iconscout/react-unicons'
+
+
 
 
 function CreateList(props) {
@@ -20,11 +23,11 @@ function CreateList(props) {
         
     }
 
-    return <div>
+    return <div className="formdiv">
+    
         <form>
-           <textarea   className="textarea" onChange={handleChange} name="content" value={note}  placeholder="content" rows="2" required></textarea>
-           <button onClick={set}></button>
-        </form>
+           <textarea   className="textarea" onChange={handleChange} name="content" value={note}  placeholder="Create a new todo.." rows="2" required></textarea>
+        </form><UilArrowCircleRight onClick={set}  color="#C747D0" size="40" />
     </div>
     
 }

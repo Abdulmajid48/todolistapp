@@ -1,112 +1,85 @@
+
+/* GENERAL STYLE */
+
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
+/* Background */
 
+.motherdiv {
+    height: 100vh;
 
-
-.attribution{
-    position: relative;
-    top: 95%;
-    font-size: 11px;
-    text-align: center;
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
-.topdiv{
+.topdiv {
     width: auto;
     height: 250px;
 }
 
-.bottomdiv {
-    width: auto;
-    height: 100vh;
-    position: relative;
-    
-}
-
-.todo{
-    font-size: 40px;
-    font-weight: 700;
-}
-
-p:hover{
-    color: hsl(233, 11%, 84%);
-
-}
-.textarea{
-    width: 475px;
-    border-radius: 10px;
-    resize: none;
-}
-
-.todolist{
-    display: flex;
-    max-height: 50%;
-    position: absolute ;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    gap: 10px;
-    flex-flow: column nowrap;
-    z-index: 1;
-    
-    
-    /* width: 500px; */
-    
-}
-
-
-.base{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: stretch;
-    gap: 20px;
-    padding: 0 10px 0 10px;
-    
-}
-
-.motherdiv{
-    height: 100vh;
-    
-}
-
-li {
-        list-style-type: none;
-       
-       
-}
-
-.total{
-    border-radius: 10px;
-}
-
-.list{
-    display: flex;
-    flex-flow: row nowrap;
-    border-bottom: solid 0.1px hsl(234, 39%, 85%);
-    padding: 10px;
-    justify-content: space-between;
-    border-radius: 0%;
-}
-
-.topdivflex{
+.topdivflex {
     display: flex;
     position: relative;
     top: 30%;
     flex-flow: row;
     justify-content: space-evenly;
     align-items: center;
+    padding: 50px;
+   
 
-} 
+}
+
+.bottomdiv {
+    width: auto;
+    height: 100vh;
+    position: relative;
+
+}
 
 
+/* Todo word */
+.todo{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* Paragraph hover */
+p:hover{
+    color: hsl(233, 11%, 84%);
+
+}
+
+/* Text Area and todolist */
+.textarea{
+    margin-right: 15px;
+    width: 450px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.formdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+
+
+}
+
+.list {
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: solid 0.1px hsl(234, 39%, 85%);
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 0%;
+    
+}
 
 .checkbox-round {
     width: 1.3em;
@@ -125,3 +98,86 @@ li {
     background-image: url("./images/icon-check.svg");
     background-color: hsl(220, 98%, 61%);
 }
+
+
+/* Bottom bar */
+.total {
+    border-radius: 10px;
+}
+
+/* Todolist and Bottom bar */
+
+
+.todolist{
+    display: flex;
+    max-height: 50%;
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 10px;
+    flex-flow: column nowrap;
+    z-index: 1;
+    
+}
+
+
+
+ /* Responsiveness */
+ .desktopdesign { 
+     flex-flow: row nowrap;
+     justify-content: space-around;
+     align-items: stretch;
+     gap: 15px;
+     padding: 0 10px 0 10px;
+     display: flex;
+     
+          
+    
+}
+
+.mobiledesign{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.mobile1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mobile2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+/* Links */
+
+.attribution {
+    position: relative;
+    top: 95%;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
