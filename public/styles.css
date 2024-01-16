@@ -154,7 +154,14 @@ li {
     justify-content: space-around;
 }
 
-
+@media (max-width:375px) {
+    .textarea {
+        margin-right: 15px;
+        width: 180px;
+        border-radius: 10px;
+        resize: none;
+    }
+}
 
 /* Links */
 
@@ -168,7 +175,6 @@ li {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
 
 
 
