@@ -1,162 +1,153 @@
-
 /* ------------GENERAL STYLE------------ */
-body{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /* ------------Background------------ */
 .motherdiv {
-    height: 100vh;
+  height: 100vh;
 }
 
 .topdiv {
-    width: auto;
-    height: 250px;
+  width: auto;
+  height: 250px;
 }
 
 .topdivflex {
-    display: flex;
-    position: relative;
-    top: 5%;
-    flex-flow: row;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 30px;
+  display: flex;
+  position: relative;
+  top: 5%;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
 }
 
 .bottomdiv {
-    width: auto;
-    height: 100vh;
-    position: relative;
+  width: auto;
+  height: 100vh;
+  position: relative;
 }
-
 
 /* ---------------Todo word---------------- */
-.todo{
-    font-size: 40px;
-    font-weight: 700;
+.todo {
+  font-size: 40px;
+  font-weight: 700;
 }
-
 
 /* --------------------Paragraph hover-------------------- */
-p:hover{
-    color: hsl(233, 11%, 84%);
+p:hover {
+  color: hsl(233, 11%, 84%);
 }
-
 
 /* --------------------Text Area and todolist--------------------- */
 
-.textarea{
-    margin-right: 15px;
-    width: 450px;
-    border-radius: 10px;
-    resize: none;
+.textarea {
+  margin-right: 15px;
+  width: 450px;
+  border-radius: 10px;
+  resize: none;
 }
 
-.formdiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.formdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-
 .list {
-    display: flex;
-    flex-flow: row nowrap;
-    border-bottom: solid 0.1px hsl(234, 39%, 85%);
-    padding: 10px;
-    justify-content: space-between;
-    border-radius: 0%;  
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: solid 0.1px hsl(234, 39%, 85%);
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 0%;
 }
 
 .checkbox-round {
-    width: 1.3em;
-    height: 1.3em;
-    background-color: white;
-    border-radius: 50%;
-    vertical-align: middle;
-    border: 1px solid #ddd;
-    appearance: none;
-    -webkit-appearance: none;
-    outline: none;
-    cursor: pointer;
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
 }
-
 
 /* -----------------------Bottom bar-------------------------- */
 .total {
-    border-radius: 10px;
+  border-radius: 10px;
 }
-
 
 /* --------------------Todolist and Bottom bar------------------- */
-.todolist{
-    display: flex;
-    max-height: 50%;
-    position: absolute ;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    gap: 10px;
-    flex-flow: column nowrap;
-    z-index: 1;  
+.todolist {
+  display: flex;
+  max-height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 10px;
+  flex-flow: column nowrap;
+  z-index: 1;
 }
 
-
- /* ---------------------Responsiveness----------------- */
- .desktopdesign { 
-     flex-flow: row nowrap;
-     justify-content: space-around;
-     align-items: stretch;
-     gap: 15px;
-     padding: 0 10px 0 10px;
-     display: flex;   
+/* ---------------------Responsiveness----------------- */
+.desktopdesign {
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 15px;
+  padding: 0 10px 0 10px;
+  display: flex;
 }
 
-.mobiledesign{
-    display: flex;
-    flex-flow: column;
-    gap: 10px;
+.mobiledesign {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
 }
 
 .mobile1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .mobile2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-@media (max-width:375px) {
-    .textarea {
-        margin-right: 15px;
-        width: 180px;
-        border-radius: 10px;
-        resize: none;
-    }
+@media (max-width: 375px) {
+  .textarea {
+    margin-right: 15px;
+    width: 180px;
+    border-radius: 10px;
+    resize: none;
+  }
 }
-
 
 /* ----------------Links------------------- */
 .attribution {
-    position: relative;
-    top: 95%;
-    font-size: 11px;
-    text-align: center;
+  position: relative;
+  top: 95%;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
 
 /* -------------------------------------------- */
